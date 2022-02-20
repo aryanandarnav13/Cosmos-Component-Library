@@ -1,0 +1,19 @@
+.gt1{
+background-color:rgb(16,16,16) ;
+color: white;
+}
+.gt2{
+    background-color:rgb(32,32,32) ;
+    color: white;
+}
+.gt3{
+    background-color:rgb(48,48,48) ;
+    color: white;
+}
+.gt4{
+    background-color:rgb(64,64,64) ;
+    color: white;
+}
+.tc{
+    text-align: center;
+}
