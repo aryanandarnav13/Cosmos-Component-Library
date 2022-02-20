@@ -123,11 +123,6 @@ body{
       grid-row: 1/2;
   }
 
-
-
-
-
-
 .lg-card{
     width: 20rem;
    
@@ -135,7 +130,7 @@ body{
 .bg-img-wrapper{
     width:350px;
     height:196px;
-    background: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=pexels-s-migaj-747964.jpg&fm=jpg");
+    background: url("https://source.unsplash.com/random/200x200");
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
     position: relative;
@@ -144,14 +139,10 @@ body{
 .text-wrapper{  
     padding:.5rem .5rem;
     letter-spacing: .0178571429em;
-    color:var(--grey);
     font: bolder;
 }
-.lg-card-upper:hover{
-    background: var(--light-grey);
-}
+
 .bg-img-wrapper > h2, .bg-img-wrapper >small{
-    color:var(--off-white);
     position: absolute;
     left:0;
     font-weight:500 ;
