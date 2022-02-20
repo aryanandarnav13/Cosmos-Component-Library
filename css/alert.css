@@ -1,0 +1,38 @@
+.alertd {
+    padding: 1rem;
+    background-color: rgb(248, 66, 66);
+    color: white;
+    margin:1rem;
+  }
+  .alerts {
+    padding: 1rem;
+    background-color: rgb(116, 243, 116);
+    color: white;
+    margin:1rem;
+  }
+  .alerti {
+    padding: 1rem;
+    background-color: rgb(167, 167, 245);
+    color: white;
+    margin:1rem;
+  }
+  .alertw {
+    padding: 1rem;
+    background-color: rgb(238, 238, 131);
+    color: black;
+    margin:1rem;
+  }
+  
+  .closebtn {
+    margin-left: 5rem;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+  
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
