@@ -1,0 +1,173 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 30rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  }
+  
+    .card__description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      background-color: #c7dde6;
+    }
+  
+    .card__description2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        
+      }
+  
+    .card-tag {
+      text-align: center;
+      color: #57727C;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.5rem 1rem;
+      border-top: 1px solid #D7DBDD;
+      background-color: #EEF3F5;
+    }
+    .card-tag2 {
+        text-align: center;
+        color: #57727C;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 0.5rem 0.5rem 0rem ;
+       
+        background-color: #7ed0f0;
+      }
+
+  
+  .card--fixedWidth {
+    max-width: 120px;
+  }
+
+  .badge {
+    position: relative;
+    width: max-content;
+  }
+  .badge-status {
+    border: thin solid white;
+    border-radius: 50%;
+    bottom: 0;
+    height: 1.3rem;
+    position: absolute;
+    right: 5%;
+    
+    width: 1.3rem;
+  }
+
+  .badge-status1{
+    background-color: rgb(123, 228, 102);
+  }
+
+  .closebtn {
+    margin-left: 5rem;
+    color: rgb(245, 100, 100);
+    font-weight: bold;
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+  
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+
+body{
+    box-sizing: border-box;
+}
+
+  a{
+      text-decoration: none;
+      font-size: 1rem;
+      color: white;
+  }
+  img{
+      border-radius: 4px;
+  }
+  .cardo{
+      padding: 16px;
+      position: relative;
+      border-radius: 10px;
+      background-color: white;
+      display: grid;
+      width:200px;
+  }
+  .content{
+      display: inline-flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+      color: white;
+      font-size: 0.8rem;
+      box-sizing: border-box;
+  }
+  .content,
+  .background{
+      grid-column: 1/2;
+      grid-row: 1/2;
+  }
+
+
+
+
+
+
+.lg-card{
+    width: 20rem;
+   
+}
+.bg-img-wrapper{
+    width:350px;
+    height:196px;
+    background: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=pexels-s-migaj-747964.jpg&fm=jpg");
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    position: relative;
+    
+}
+.text-wrapper{  
+    padding:.5rem .5rem;
+    letter-spacing: .0178571429em;
+    color:var(--grey);
+    font: bolder;
+}
+.lg-card-upper:hover{
+    background: var(--light-grey);
+}
+.bg-img-wrapper > h2, .bg-img-wrapper >small{
+    color:var(--off-white);
+    position: absolute;
+    left:0;
+    font-weight:500 ;
+    
+}
+.bg-img-wrapper h2{
+    bottom:10px;
+     margin-bottom: 1rem;
+     margin-left: 1rem;
+     font-size: 1.5rem;
+
+}
+.bg-img-wrapper small{
+    bottom:5px; 
+    margin-left: 1rem;
+    font-size: 1rem;
+     
+
+}
