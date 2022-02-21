@@ -1,6 +1,7 @@
 .list{
-    background-color: var(--cover-color);
+    background-color: var(--red-color);
     list-style-type: none;
     margin: 0.5rem;
+    padding: 0.2rem;
 
 }
