@@ -1,5 +1,5 @@
 .list{
-    background-color: blanchedalmond;
+    background-color: var(--cover-color);
     list-style-type: none;
     margin: 0.5rem;
 

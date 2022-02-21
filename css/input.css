@@ -2,7 +2,7 @@
     max-width: 100%;
     border-radius: 4px;
     margin: 0.2rem auto;
-    background-color: rgb(231, 161, 47);
+    background-color: var(--blue-color);
     padding: 0.2rem;
 }
 
@@ -11,8 +11,8 @@ form{
     flex-wrap: wrap;
 }
 .submit-btn{
-    background-color: gold;
-    color: #fff;
+    background-color: var(--green-color);
+    color: var(--secondary-color);
     border-radius: 0.5rem;
     border:0;
     font-size: 0.8rem;
@@ -20,7 +20,7 @@ form{
 }
 input{
     flex-grow: 1;
-    border-radius: 0.5rem solid #000;
+    border-radius: 0.5rem solid var(--dark-color);
     border-radius: 0.5rem;
     font-size: 1rem;
     padding: 1rem;

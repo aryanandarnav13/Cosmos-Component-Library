@@ -20,7 +20,7 @@
     top: 0;
     transform: translate(60%, -30%);
     width: 1.5rem;
-    color: rgb(248, 66, 66);
+    color: var(--red-color);
     display: flex;
     font-size: 1rem;
     justify-content: center;
@@ -29,7 +29,7 @@
   }
   
   .badge-status {
-    border: thin solid white;
+    border: thin solid var(--secondary-color);
     border-radius: 50%;
     bottom: 0;
     height: 1.3rem;
@@ -40,8 +40,8 @@
   }
 
   .badge-status1{
-    background-color: rgb(123, 228, 102);
+    background-color:var(--green-color);
   }
   .badge-status2{
-    background-color: rgb(13, 13, 14);
+    background-color: var(--red-color);
   }

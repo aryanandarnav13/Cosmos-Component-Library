@@ -13,15 +13,15 @@
 @import url("css/rating.css");
 @import url("css/text.css");
 @import url("css/list.css");
-
-
 :root{
     --primary-color: rgb(81, 97, 116);
     --secondary-color:white;
     --cover-color:#c7dde6;
+    --dark-color:rgb(0, 0, 0);
+    --red-color:rgb(248, 66, 66);
+    --green-color:rgb(123, 228, 102);
+    --blue-color:#008CBA;
 }
-
-
 
 * {
     box-sizing: border-box;
@@ -87,11 +87,9 @@
     background-color: var(--primary-color);
     padding: 1rem 1rem;
     text-align: center;
-    color: white;
+    color: var(--secondary-color);
     border-bottom-right-radius: 1rem;
 }
-
- 
   @media screen and (max-width: 600px) {
     .row {   
       flex-direction: column;

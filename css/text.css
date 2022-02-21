@@ -1,18 +1,18 @@
 .gt1{
 background-color:rgb(16,16,16) ;
-color: white;
+color: var(--secondary-color);
 }
 .gt2{
     background-color:rgb(32,32,32) ;
-    color: white;
+    color: var(--secondary-color);
 }
 .gt3{
     background-color:rgb(48,48,48) ;
-    color: white;
+    color: var(--secondary-color);
 }
 .gt4{
     background-color:rgb(64,64,64) ;
-    color: white;
+    color: var(--secondary-color);
 }
 .tc{
     text-align: center;

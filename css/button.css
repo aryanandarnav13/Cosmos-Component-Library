@@ -10,13 +10,13 @@
     cursor: pointer;
   }
   
-  .button1 {background-color: #4CAF50;} 
-  .button2 {background-color: #008CBA;} 
+  .button1 {background-color:  var(--green-color);}
+  .button2 {background-color:  var(--blue-color);} 
   
   
   
    
   .fbutton:hover {
-     box-shadow: 0 6px 14px 0 #666;
+     box-shadow: 0 6px 14px 0  var(--primary-color);;
      transform: scale(1.05);
   }
