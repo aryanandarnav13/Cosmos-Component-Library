@@ -1,5 +1,5 @@
 .wrapper{
-    max-width: 60%;
+    max-width: 100%;
     border-radius: 4px;
     margin: 0.2rem auto;
     background-color: rgb(231, 161, 47);
@@ -13,10 +13,10 @@ form{
 .submit-btn{
     background-color: gold;
     color: #fff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border:0;
-    font-size: 0.5rem;
-    padding: 0.2rem 0.2rem;
+    font-size: 0.8rem;
+    padding: 0.2rem 1rem;
 }
 input{
     flex-grow: 1;
